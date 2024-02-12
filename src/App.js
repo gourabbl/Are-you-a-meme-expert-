@@ -21,6 +21,60 @@ function App() {
         {answerText: "Saza", isCorrect: false}
       ]
     },
+	{
+	  questionText: <img src="../memes/baingan.jpg" />,
+	  answerOptions: [
+		  {answerText: "Ganit", isCorrect: false},
+		  {answerText: "Bhugol", isCorrect: false},
+		  {answerText: "Itihaas", isCorrect: false},
+		  {answerText: "Baingan", isCorrect: true}
+		]
+	},
+	{
+	  questionText: <img src="../memes/baithne ka tadika.jpg" />,
+	  answerOptions: [
+			{answerText: "Baithne Ka Tarika", isCorrect: true},
+			{answerText: "Chalne Ka Tarika", isCorrect: false},
+			{answerText: "Uthne Ka Tarika", isCorrect: false},
+			{answerText: "Aane Ka Tarika", isCorrect: false}
+		  ]
+	  },
+	{
+	  questionText: <img src="../memes/aaj mood nhi kar rha.jpg" />,
+	  answerOptions: [
+			  {answerText: "Kal mood karega", isCorrect: false},
+			  {answerText: "Aaj mood kar rha hai", isCorrect: false},
+			  {answerText: "Aaj mood nhi kar rha", isCorrect: true},
+			  {answerText: "Abhi karte hai", isCorrect: false}
+			]
+	},
+	{
+	  questionText: <img src="../memes/dedso rupiya.jpg" />,
+	  answerOptions: [
+				{answerText: "Sau", isCorrect: false},
+				{answerText: "Haazar", isCorrect: false},
+				{answerText: "Pachas", isCorrect: false},
+				{answerText: "Dedso", isCorrect: true}
+			  ]
+	},
+	{
+	  questionText: <img src="../memes/elvish bhai.jpg" />,
+      answerOptions: [
+				  {answerText: "Rocky Bhai", isCorrect: false},
+				  {answerText: "Munna Bhaiya", isCorrect: false},
+				  {answerText: "Elvish Bhaiii", isCorrect: true},
+				  {answerText: "Guddu Bhaiya", isCorrect: false}
+				]
+	},
+	{
+	  questionText: <img src="../memes/paani.jpg" />,
+	  answerOptions: [
+					{answerText: "Protein Shake", isCorrect: false},
+					{answerText: "Doodh", isCorrect: false},
+					{answerText: "Khana", isCorrect: false},
+					{answerText: "Paani Paani Paani", isCorrect: true}
+				  ]
+	},
   ]
 
   const [currentQuestion, setCurrentQuestion] = useState(0);

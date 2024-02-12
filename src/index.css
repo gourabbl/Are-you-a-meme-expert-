@@ -59,6 +59,13 @@ body {
   height: 200px
 }
 
+img{
+  float: left;
+  width: 200px;
+  height: auto;
+  border-radius: 10px
+}
+
 .timer-text {
   background: rgb(230, 153, 12);
   padding: 15px;
